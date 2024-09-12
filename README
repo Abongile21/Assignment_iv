@@ -1,0 +1,44 @@
+For both increase_brightness and greyscale.asm
+
+## Description
+
+This is an image processing program written in MIPS assembly language. It reads an image in the PPM (Portable Pixmap) format, processes the pixel values, and then saves the modified image to an output file. The program calculates and displays the average pixel values for both the original and modified images.
+
+## Features
+
+- Reads PPM image files.
+- Edits and processes pixel values.
+- Supports clamping pixel values.
+- Writes the modified image to an output file.
+- Calculates and displays average pixel values.
+
+## Prerequisites
+
+Before using this program, make sure you have the following:
+
+- A MIPS assembly environment or simulator (e.g., MARS or SPIM) installed on your system.
+- save image as input as input.ppm
+- Input PPM image file (input.ppm) to be processed.
+
+## Usage
+
+1. Place the input PPM image file (input.ppm) in the same directory as the program.
+
+2. Open the MIPS assembly environment or simulator (e.g., MARS or SPIM).
+
+3. Load and run the MIPS assembly program (`main` function).
+
+4. The program will process the input image and display the average pixel values for the original and modified images.
+
+5. The modified image will be saved as "output.ppm" in the same directory.
+
+6. You can find the output image in the same directory with the name "output.ppm."
+
+## Example
+
+Here's an example of how to run the program:
+
+```shell
+$ mars # or your MIPS simulator command
+# Load and run the MIPS assembly program
+
